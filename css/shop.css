@@ -1,0 +1,271 @@
+/*
+* @Author: lenovo
+* @Date:   2018-08-09 09:46:53
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-08-16 19:23:00
+*/
+@import url(rem.css);
+header{
+	width: 7.5rem;
+	height: 3.25rem;
+	padding-top: 0.4rem;
+	background:linear-gradient(to right,#ffff00,#ff6d00) ;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+header .top{
+	width: 7.02rem;
+	height: 0.7rem;
+	margin:0 auto ;
+	display: flex;
+	justify-content: space-between;
+}
+header .top a{
+	display: block;
+}
+header .top a img{
+	display: block;
+}
+header .top .one{
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 0.25rem;
+}
+header .top .name{
+	font-size: 0.45rem;
+	color: #fff;
+	border-bottom: 0.02rem dotted #e0e0e0;
+}
+header .top .right{
+	width: 1.2rem;
+	height: 0.5rem;
+	display: flex;
+	justify-content: space-between;
+}
+header .bottom{
+	width: 7.02rem;
+	height: 2.15rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+header .bottom .icon{
+	width: 1.7rem;
+	height: 1.7rem;
+}
+header .bottom .right1{
+	width: 5rem;
+	height: 2.15rem;
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+}
+header .bottom .right1 .wel{
+	height: 0.4rem;
+	font-size: 0.24rem;
+	line-height: 0.4rem;
+	margin-bottom: 0.1rem;
+}
+header .bottom .right1 .shou{
+	width: 5rem;
+	height: 0.2rem;
+	font-size: 0.2rem;
+	line-height: 0.2rem;
+}
+header .bottom .right1 img{
+	width: 2.12rem;
+	height: 0.14rem;
+	margin-bottom: 0.1rem;
+}
+header .bottom .right1 .reduce{
+	margin-top: 0.1rem;
+	height: 0.3rem;
+	width: 5.46rem;
+	display: flex;
+	justify-content: flex-start;
+	font-size: 0.14rem;
+	line-height: 0.3rem;
+}
+header .bottom .right1 .reduce .jian{
+	width: 0.68rem;
+	height: 0.3rem;
+	border: 0.02rem solid red;
+	border-radius: 0.27rem;
+	margin-right: 0.1rem;
+	text-align: center;
+	font-size: 0.12rem;
+	line-height: 0.27rem;
+}
+main{
+	width: 7.5rem;
+	height: 9.45rem;
+	padding:0 0.24rem;
+	margin-top: 3.25rem;
+/* 	display: flex;
+	flex-direction: row; */
+	overflow: scroll;
+	
+}
+main aside{
+	width: 2rem;
+	height: 6rem;
+	background-color: pink;
+	float: left;
+}
+main aside ul{
+	width: 2.28rem;
+	height: 6rem;
+	overflow-y: scroll;
+}
+main aside ul li{
+	width: 2rem;
+	height: 1rem;
+	background: #e6eaea;
+	line-height: 1rem;
+	text-align: center;
+	font-size: 0.3rem;
+}
+main aside ul li.active{
+	background-color: #fff;
+	color: #ff6b00;
+	position: relative;
+}
+main aside ul li.active .box{
+	width: 0.4rem;
+	height: 0.4rem;
+	position: absolute;
+	right: -0.2rem;
+	top: 0.35rem;
+	transform: rotate(45deg);
+	background: #ffff00;
+	background:linear-gradient(to top right,#fff,#ffff00 ) ;
+} 
+main .centent{
+	width: 5.02rem;
+	height: 9.09rem;
+	padding-bottom: 0.24rem;
+/* 	background-color: green; */
+/* 	padding-left: 0.24rem; */
+	overflow: scroll;
+	float: left;
+}
+main .centent ul{
+	padding-left:0.2rem;
+/* 	background-color: green; */
+}
+main .centent ul li{
+	width: 4.76rem;
+	height: 2rem;
+	margin-top:0.24rem;
+/* 	background-color: orange; */
+	display: flex;
+	flex-direction: row;
+	padding:0.24rem;
+	box-shadow: 0 0 0.21rem 0.01rem #ffff00;
+	position: relative;
+}
+main .centent a{
+	color: #000;
+}
+main .centent ul li .jia{
+	position: absolute;
+	top: -0.2rem;
+	right: 0;
+}
+main .centent ul li .jishu{
+	position: absolute;
+	top: -0.2rem;
+	right:0.5rem;
+	font-size: 0.4rem;
+}
+main .centent ul li .jian{
+	position: absolute;
+	top: -0.2rem;
+	right:1rem;
+	display: none;
+}
+main .centent ul li .left{
+	width: 1.3rem;
+	height: 1.55rem;
+	background-color: #fff;
+}
+main .centent ul li .left img{
+	width: 1.3rem;
+	height: 1.55rem;
+}
+main .centent ul li .right{
+	width: 3.10rem;
+	height: 1.55em;
+	font-size: 0.14rem;
+	display: flex;
+	flex-direction: column;
+}
+main .centent ul li .name{
+	font-size: 0.38rem;
+	border-bottom: 0.02rem dotted #e0e0e0;
+}
+main .centent ul li span{
+	width: 2.0rem;
+	height: 1.32rem;
+	text-overflow: ellipsis;
+	white-space:nowrap;
+}
+main .centent ul li .price{
+	font-size: 0.32rem;
+	margin-top: 0.01rem;
+	color: red;
+}
+footer{
+	width: 7.5rem;
+	height: 1rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-around;
+/* 	background-color: #000; */
+	box-shadow: 0 -0.01rem 0.3rem 0 #e0e0e0;
+	background-color: #fff;
+}
+footer .shop{
+	width: 0.8rem;
+	height: 0.8rem;
+	margin-top: -0.3rem;
+	border-radius: 50%;
+	background: #cccccc;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+footer .shop img{
+
+}
+footer .price{
+	width: 2rem;
+	height: 0.62rem;
+	margin-top: 0.2rem;
+}
+footer .price .top{
+	width: 2rem;
+	height: 0.32rem;
+	font-size: 0.28rem;
+	line-height: 0.32rem
+}
+footer .price .bottom{
+	width: 2rem;
+	height: 0.3rem;
+	font-size: 0.18rem;
+	line-height: 0.3rem;
+}
+footer .sure{
+	background: #000;
+	width: 2.10rem;
+	height: 0.9rem;
+	border-radius: 0.2rem;
+	font-size: 0.32rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.9rem;
+
+}

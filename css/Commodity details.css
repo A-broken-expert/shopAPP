@@ -1,0 +1,221 @@
+/*
+* @Author: lenovo
+* @Date:   2018-08-12 16:01:26
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-08-16 17:02:10
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 7.5rem;
+	height: 1.3rem;
+	background: linear-gradient(to right,#ffff00,#ff6700);
+	padding: 0.4rem 0.24rem 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+}
+header img{
+	display: block;
+}
+main .img{
+	margin: 1.42rem 0.24rem 0.05rem;
+	width: 7.02rem;
+	height: 3.06rem;
+	background-image: url('../img/Commodity details/cao.jpg');
+	background-position: center;
+	background-size: cover;
+/* 	background-color: orange; */
+}
+main .box1{
+	width: 7.02rem;
+	height: 0.5rem;
+/* 	background-color: red; */
+	margin: 0 auto;
+	display: flex;
+}
+main .box1 .title1{
+	width: 3.33rem;
+	font-size: 0.38rem;
+	border-bottom: 0.04rem dotted #e0e0e0;
+}
+main .box1 .zhekou{
+	width: auto;
+	padding: 0.03rem;
+	height: 0.30rem;
+	border: 0.02rem solid #ff6700;
+	border-radius:0.15rem; 
+	font-size: 0.18rem;
+	line-height: 0.22rem;
+	text-align: center;
+	margin-top: 0.14rem;
+	margin-right: 0.2rem;
+}
+main .pi{
+	width: 7.02rem;
+	height: 0.75rem;
+/* 	background: #000; */
+	margin: 0 auto;
+	font-size: 0.22rem;
+}
+main .eva{
+	width: 7.02rem;
+	height: 2.65rem;
+/* 	background-color: #a5a5; */
+	margin: 0 auto;
+}
+main .eva .ping{
+	width: 7.02rem;
+	height: 0.67rem;
+}
+main .eva .tou{
+	width: 7.02rem;
+	height: 0.78rem;
+}
+main .eva .ping2{
+	width: 6.60rem;
+	height: 0.50rem;
+	margin: 0 auto;
+	border-radius: 0.1rem;
+	background-color:#ffa800  ;
+	font-size: 0.22rem;
+	line-height: 0.5rem;
+	text-align: left;
+}
+main img{
+	display: block;
+}
+main .eva .tou{
+	width: 1.22rem;
+	height: 1.22rem;
+	border-radius: 0.61rem;
+	background-image: url('../img/Commodity details/beautiful-beauty-dandelion-160699.jpg');
+	background-size:cover;
+	background-position: center;
+	float: left;
+}
+main .eva .xin{
+	margin-right: 3rem;
+	margin-top: 0.2rem;
+	color: #000;
+}
+main .eva .xin .name{
+	font-size: 0.30rem;
+	line-height: 0.5rem;
+}
+main .eva  .xin .tel{
+	font-size: 0.24rem;
+	line-height: 0.5rem;
+}
+main .ing{
+	width: 7.02rem;
+	height: 1rem;
+/* 	background-color: #555; */
+	margin: 0 auto;
+}
+main .ing .title2{
+	width: 2.7rem;
+	height: 0.36rem;
+}
+main .ing .pei{
+	font-size: 0.22rem;
+	margin-top: 0.22rem;
+}
+main .rec{
+	width: 7.02rem;
+	height: 12.8rem;
+	margin: 0 auto;
+
+}
+main .rec ul li{
+	width: 3.40rem;
+	height: 4.35rem;	
+/* 	background: pink; */
+	float: left;
+	margin-right: 0.22rem;
+	margin-top: 0.22rem;
+	border-radius: 0.1rem;
+}
+main .rec ul li:nth-child(2n){
+	margin-right: 0rem;
+}
+main .rec ul li img{
+	width: 3.40rem;
+	height: 2.7rem;
+	border-top-right-radius: 0.1rem;
+	border-top-left-radius: 0.1rem;
+}
+main .rec ul li .ming{
+	width: 1.22rem;
+	height: 0.35rem;
+	font-size: 0.3rem;
+	font-weight: bold;
+	margin: 0 auto;
+}
+main .rec ul li .shou{
+	width: 1.2rem;
+	height: 0.24rem;
+	font-size: 0.18rem;
+	margin: 0.2rem auto 0;
+}
+main .rec ul li .jiage{
+	font-size: 0.38rem;
+	float: left;
+	margin-left:0.9rem;
+}
+main .rec ul li .dw{
+	font-size: 0.18rem;
+	margin-top: 0.15rem;
+	float: left;
+}
+main{
+	margin-bottom: 2rem;
+}
+footer{
+	width: 7.5rem;
+	height: 1rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-around;
+	background-color: #fff; 
+	box-shadow: 0 -0.01rem 0.3rem 0 #e0e0e0;
+}
+footer .shop{
+	width: 0.8rem;
+	height: 0.8rem;
+	margin-top: -0.6rem;
+}
+footer .price{
+	width: 2rem;
+	height: 0.62rem;
+	margin-top: 0.2rem;
+}
+footer .price .top{
+	width: 2rem;
+	height: 0.32rem;
+	font-size: 0.28rem;
+	line-height: 0.32rem
+}
+footer .price .bottom{
+	width: 2rem;
+	height: 0.3rem;
+	font-size: 0.18rem;
+	line-height: 0.3rem;
+}
+footer .sure{
+	background: #000;
+	width: 2.10rem;
+	height: 0.9rem;
+	border-radius: 0.2rem;
+	font-size: 0.32rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.9rem;
+
+}

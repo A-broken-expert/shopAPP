@@ -1,0 +1,138 @@
+/*
+* @Author: lenovo
+* @Date:   2018-08-14 17:36:58
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-08-16 19:48:31
+*/
+header{
+	width: 7.5rem;
+	height: 1.3rem;
+	background:linear-gradient(to right,#ffff00,#ff6700);
+	padding-top: 0.4rem;
+	padding-left: 0.24rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+}
+header img{
+	display: block;
+}
+header .two{
+	margin-top: 0.2rem;
+	margin-right: 0.5rem;
+}
+.box{
+	width: 7.02rem;
+	height: 2.5rem;
+	box-shadow: 0 0.05rem 0.2rem 0 rgba(255, 255, 0, 0.6);
+	padding: 0.24rem;
+	margin-top: 1.5rem;
+	display: flex;
+	justify-content: space-around;
+}
+.box .img{
+	width: 2.15rem;
+	height: 2rem;
+	border-radius: 0.1rem;
+	background-image: url('../img/parcel app/1.1.png');
+	background-size: cover;
+	background-position: center;
+}
+.box .price{
+	width: 1.6rem;
+	margin: 0 auto;
+	color: rgba(255, 0, 0, 0.7);
+}
+.box .price span{
+	font-size: 0.4rem;
+}
+.box .price i{
+	font-style: normal;
+	font-size: 0.2rem;
+}
+.box .price p{
+	font-size: 0.22rem;
+	margin: 0 auto;
+	text-align: center;
+}
+.succ{
+	text-align: center;
+	font-size: 0.2rem;
+	color: rgba(255, 0, 0, 0.7);
+	margin-top: 1rem;
+}
+.h{
+	text-align: center;
+	font-size: 0.2rem;
+	color: rgba(255, 0, 0, 0.7);
+}
+.qie{
+	display: flex;
+	justify-content: space-around;
+}
+.qie .home{
+	width: 1.86rem;
+	height: 0.65rem;
+	background-color:rgba(255, 0, 0, 0.7) ;
+	border-radius: 0.325rem;
+	
+}
+.qie a{
+	text-align: center;
+	line-height: 0.65rem;
+	color: #fff;
+	font-size: 0.3rem;
+}
+main .rec{
+	width: 7.02rem;
+	height: 12.8rem;
+	margin: 0 auto;
+
+}
+main .rec ul li{
+	width: 3.40rem;
+	height: 4.35rem;	
+/* 	background: pink; */
+	float: left;
+	margin-right: 0.22rem;
+	margin-top: 0.22rem;
+	border-radius: 0.1rem;
+	box-shadow: 0 0.01rem 0.2rem 0 rgba(255, 255, 0, 0.4);
+}
+main .rec ul li:nth-child(2n){
+	margin-right: 0rem;
+}
+main .rec ul li img{
+	width: 3.40rem;
+	height: 2.7rem;
+	border-top-right-radius: 0.1rem;
+	border-top-left-radius: 0.1rem;
+}
+main .rec ul li .ming{
+	width: 1.22rem;
+	height: 0.35rem;
+	font-size: 0.3rem;
+	font-weight: bold;
+	margin: 0 auto;
+}
+main .rec ul li .shou{
+	width: 1.2rem;
+	height: 0.24rem;
+	font-size: 0.18rem;
+	margin: 0.2rem auto 0;
+}
+main .rec ul li .jiage{
+	font-size: 0.38rem;
+	float: left;
+	margin-left:0.9rem;
+}
+main .rec ul li .dw{
+	font-size: 0.18rem;
+	margin-top: 0.15rem;
+	float: left;
+}
+main{
+	margin-bottom: 2rem;
+}

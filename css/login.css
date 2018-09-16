@@ -1,0 +1,178 @@
+/*
+* @Author: lenovo
+* @Date:   2018-08-14 18:00:01
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-08-23 20:08:18
+*/
+main{
+	width: 7.5rem;
+	height: 13.34rem;
+	background-image: url('../img/Commodity details/8ee1c47019.jpg');
+	background-size: cover;
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+main .center{
+	width: 7.5rem;
+	height: 13.34rem;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 0.4rem 0.24rem 0;
+}
+main .center .top{
+	float: right;
+	width: 1.35rem;
+	height: 0.6rem;
+	font-size: 0.30rem;
+	text-align: center;
+	line-height: 0.6rem;
+	background-color: #ffff00;
+	color: #FFF;
+	border-radius: 0.3rem;
+}
+main .center .name1{
+	margin: 1.5rem auto 0;
+	width: 2.8rem;
+	height: 2.8rem;
+	background-color: rgba(0, 0, 0,0);
+	border-radius: 1.4rem;
+	padding:0.5rem 0.5rem ;
+	position: relative;
+}
+main .center .name{
+	width: 1.8rem;
+	height: 1.8rem;
+	background-color: rgba(255, 255, 0, 0.5);
+	border-radius: 0.9rem;
+	padding: 0.06rem;
+	animation: scale 5s ease-in infinite;
+}
+@keyframes scale{
+	0%{
+		transform: scale(1, 1);
+		background-color: rgba(255, 255, 0, 0.1);
+	}
+	25%{
+		transform: scale(1.2, 1.2);	
+		background-color: rgba(255, 255, 0, 0.3);
+	}
+	50%{
+		transform: scale(1.5, 1.5);
+		background-color: rgba(255, 255, 0, 0);
+	}
+	75%{
+		transform: scale(1.2, 1.2);
+		background-color: rgba(255,255, 0, 0.3);
+	}
+	100%{
+		transform: scale(1, 1);
+		background-color: rgba(255,255, 0, 0);
+	}
+}
+
+main .center .name_box1{
+	width: 1.68rem;
+	height: 1.68rem;
+	background-color: rgba(255, 255, 0, 1.0);
+	border-radius: 0.84rem;
+	padding:0.1rem;
+	position: absolute;
+	top: 0.56rem;
+	left: 0.56rem;
+}
+main .center .name_box1 .tou{
+	width: 1.48rem;
+	height: 1.48rem;
+	border-radius: 0.8rem;
+	background-position: center;
+	background-size: cover;
+	background-image: url('../img/Commodity details/beautiful-beauty-dandelion-160699.jpg');
+	background-size: cover;
+	background-position: center;
+}
+main .center .title{
+	text-align: center;
+	margin: 0.26rem auto;
+	font-size: 0.24rem;
+	color: #ff0;
+}
+main .center .form{
+	width: 5.92rem;
+	height: 2.6rem;
+	border-radius: 0.1rem;
+	background-color: #fff;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	margin-bottom: 0.2rem;
+}
+main .center .form .user{
+	display: block;
+	margin-top: 0.25rem;
+	margin-left: 0.35rem;
+}
+main .center .form span{
+	display: block;
+	float: right;
+	width: 2.7rem;
+	height: 0.25rem;
+	margin-top: 0.4rem;
+	font-size: 0.18rem;
+	margin-bottom: 0.25rem;
+	color: #ffd800;
+}
+main .center .form input{
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+	display: block;
+	width: 2.46rem;
+	height: 0.4rem;
+	float: left;
+	border-bottom: 0.01rem solid;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+}
+main .center .form input #number{
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+	display: block;
+	width: 2.46rem;
+	height: 0.4rem;
+	float: left;
+	border-bottom: 0.01rem solid;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+}
+main .center .form .icon{
+	display: block;
+	margin-top: 0.25rem;
+	margin-left: 0.35rem;
+	width: 0.4rem;
+	height: 0.4rem;
+	float: left;
+	margin-bottom: 0.25rem;
+}
+main .center .chex{
+	font-size: 0.18rem;
+	margin-top: 0.2rem;
+	margin-left: 0.8rem;
+}
+main .center .chex span{
+	color:#fff;
+}
+main .center .chex a{
+	color: #fff;
+}
+main .center .button{
+	width: 4.32rem;
+	height: 0.71rem;
+	border-radius: 0.36rem;
+	background-color: #333;
+	margin: 1rem 1.35rem;
+	color:#fff;
+	border: none;
+}
+footer{
+	margin: 0.05rem 0.85rem;
+}
