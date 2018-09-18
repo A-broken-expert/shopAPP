@@ -199,16 +199,23 @@ main .centent ul li .right{
 	height: 1.55em;
 	font-size: 0.14rem;
 	display: flex;
+	padding-left: 0.2rem;
 	flex-direction: column;
 }
 main .centent ul li .name{
 	font-size: 0.38rem;
 	border-bottom: 0.02rem dotted #e0e0e0;
 }
-main .centent ul li span{
+main .centent ul li .right span{
 	width: 2.0rem;
 	height: 1.32rem;
-	text-overflow: ellipsis;
+}
+main .centent ul li .right .box{
+	width: 2.5rem;
+	height: 1.32rem;
+	display: -webkit-box;
+	/*overflow:hidden;*/
+	Text-overflow:ellipsis;
 	white-space:nowrap;
 }
 main .centent ul li .price{
@@ -268,4 +275,69 @@ footer .sure{
 	text-align: center;
 	line-height: 0.9rem;
 
+}
+.appCover{
+	width: 5.39rem;
+	height: 6.98rem;
+	border-radius: 0.2rem;
+	position:absolute;
+	font-size: 0.24rem;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin: auto;
+	box-shadow: 0 0 0 30000px rgba(255,255,255,0.6);
+	overflow: hidden;
+	transform:scale(0);
+	transition: transform .5s;
+}
+.appCover .CoverTop{
+	width: 5.39rem;
+	height: 4rem;
+	border-top-left-radius: 0.2rem;
+	border-top-right-radius: 0.2rem;
+	background-image: url("../img/parcel app/1.1.png");
+	background-position:center;
+	background-size: cover;
+	padding: 0.2rem;
+}
+.appCover .CoverTop i{
+	float: right;
+	color:#fff;
+}
+.appCover .CoverBottom{
+	height: 2.98rem;
+	/*background: #fff;*/
+	padding: 0.40rem 0.77rem;
+	background: #fffc00;
+	color: #000;
+}
+.appCover .CoverBottom p{
+	margin:0.1rem 0;
+}
+.appCover .CoverBottom .bth{
+	height:0.6rem;
+	display: flex;
+	align-items: center;
+}
+.appCover .CoverBottom .bth .jaz{
+	width:0.6rem;
+	font-size: 0.3rem;
+	text-align: center;
+	color:red;
+}
+.appCover .CoverBottom .zon{
+	line-height: 0.6rem;
+	display: flex;
+	justify-content: space-between;
+	color:red;
+}
+.appCover .CoverBottom .zon .button{
+	width: 2rem;
+	height: 0.6rem;
+	background: #fff;
+	color:red;
+	text-align: center;
+	border-radius: 0.1rem;
 }
